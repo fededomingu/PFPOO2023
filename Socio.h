@@ -22,8 +22,7 @@ class Socio {
 	int dia_nac, mes_nac, anio_nac;
 public:
 	Socio(std::string s_nombre="", std::string s_apellido="", int s_dni=0, std::string s_domicilio="",
-		  int s_movil=0, std::string s_email="", int s_dnac=0, 
-		  int s_mnac=0, int s_anac=0);
+		  int s_movil=0, std::string s_email="", int s_dnac=0, int s_mnac=0, int s_anac=0);
 	
 	std::string VerNombre() const;
 	std::string VerApellido() const;
